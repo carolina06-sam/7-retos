@@ -11,25 +11,31 @@ body {
     overflow: hidden;
     margin: 0;
 }
-
+/* estilos de las cajas cuando estan vacias */
 .empty {
     height: 150px;
     width: 150px;
     margin: 10px;
+    border-radius: 30px;
     border: solid 3px black;
     background: white;
 }
-
+/* cuando el div este lleno en el primer caso es el primer div que se definido en html */
 .fill {
     background-image: url("https://source.unsplash.com/random/150x150");
+    border-radius: 25px;
     height: 145px;
     width: 145px;
     cursor: pointer;
 }
 
 .hold {
-    border: solid 5px #ccc;
+    border: solid 5px black(131, 35, 35);
 }
+.invisible {
+    background-color: blue;
+}
+
 .hovered {
     background-color: #333;
     border-color: white;
@@ -37,4 +43,7 @@ body {
 }
 
 @media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
 }
