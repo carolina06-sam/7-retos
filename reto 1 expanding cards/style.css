@@ -19,7 +19,6 @@ body {
     width: 90vw;
     justify-content: center;
     align-items: center;
-    background-color: blue;
 }
 
 .panel {
@@ -37,6 +36,7 @@ body {
     transition: 1s;
 }
 /* .panel h3 {
+    position: absolute;
     font-size: 20px;
     bottom: 20px;
     left: 20px;
@@ -52,7 +52,10 @@ body {
     opacity: 1;
     margin-bottom: 10px;
     margin-left: 20px;
-    transition: opacity 0.3s ease-in 0.6s; /* ease-in comienzo lento */
+    transition: opacity 0.3s ease-in 0.6s; 
+    
+    
+    /* ease-in comienzo lento */
 
 @media (max-width: 480px) {
     .container {
