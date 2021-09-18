@@ -28,7 +28,7 @@ leftBtn.addEventListener("click", () => {
     setActiveSlide();
 });
 
-setBgToBody();
+setBgToBody(); //primer imagen que se va a visualizar
 
 function setBgToBody() {
     //  al body le doy un stilo de fondo luego paso como array activeSlide y a ese le doy el argumento style.backgroundimage
